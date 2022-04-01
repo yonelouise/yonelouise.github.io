@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(111, 111, 111);
+    background-color: #eee5e5;
+}
+
+h3 {
+    color: #52B2CF;
+    font-family: 'Alata', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #677ca5;
+}
+
+#foto-perfil {
+    background-color: #D4AFB9;
+    border-radius: 120% 120% 75% 75%;
+    padding: 1%;
+}
+
+#nome {
+    font-family: 'Alata', sans-serif;
+    background-color: #D1CFE2;
+}

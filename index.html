@@ -2,57 +2,122 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8"/>
-  <title>Portfólio | Yone Louise</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;900&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Portfóao | Yone Louise</title>
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-  <!--Seu nome completo -->
-  <h1 id="nome">Yone Louise Brych 👩‍💻</h1>
-  
-  <!--Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando -->
-  <img id="foto-perfil" src="foto_yone.jpg" alt="foto yone" width="350px">
-  <!-- Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora -->
-  <!-- Um índice com links internos para as diferentes seções do seu portfólio -->
-  <h3>&#127760 Navegando pelo meu portfólio &#127760</h3>
-  <ul>
-    <!-- Um link interno para a sua foto -->
-    <a href=#foto-perfil>Foto</a><br>
-    <a href=#sobremim>Sobre mim</a><br>
-    <a href=#habilidades>Habilidades</a></li><br>
-    <a href=#blogs>Blogs que gosto</a>
-  </ul>
-  
-  <h3 id="sobre-mim">&#128100 Sobre mim &#128100</h3>
-  <p>
-     Oi, tudo certo? Me chamo Yone Louise Brych, tenho 25 anos e moro atualmente em Curitiba - PR!
-  </p>
-  
-  <!-- Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha -->
-  <h3 id="habilidades">&#128202 Habilidades &#128202</h3>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Unix</li>
-  </ul>
+  <header id="header">
+    <h1>YONE LOUISE BRYCH</h1>
+    <nav>
+      <a>Home</a>
+      <a href="#sobre-mim">Sobre Mim</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#favoritos">Favoritos</a>
+      <a href="#redes-sociais">Redes Sociais</a>
+    </nav>
+  </header>
 
-  <h3 id="blogs">&#11088 Blogs favoritos &#11088</h3>
-  <ul>
-    <!-- Um link externo para algum blog de que você goste, que abra em uma nova aba -->
-    <a href="https://arvoresertecnologico.tumblr.com/" target="_blank">Árvore, ser tecnológico</a><br> 
-    <a href = "https://blog.betrybe.com/" target = "_blank">BeTrybe</a><br>
-    <a href = https://buzzfeed.com.br/ target="_blank">Buzzfeed</a><br>
-    <a href = "https://www.criatives.com.br/" target = "_blank">Criatives</a><br>
-    <a href = "https://www.naointendo.com.br/" target="_blank">Ñintendo</a>
-   
-  </ul> 
+  <section id="sobre-mim">
+    <h2>Sobre Mim</h2>
+    <div id="foto-texto">
+      <img src="imagens/foto_yone.jpg" alt="" id="foto-yone">
+      <p id="txt-sobre-mim">Oi, tudo certo? Me chamo Yone Louise Brych, tenho 25 anos e moro atualmente em Curitiba - PR! Fiz faculdade de Engenharia Florestal porém ainda não conclui o curso. Decidi migrar para a área do Desenvolvimento Web e estou amando esse novo universo!
+      </p>
+    </div>
+  </section>
 
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div id="projetos-templates">
+      <div>
+        <img src="imagens/imagens-projetos/lessons-learned.png" alt="">
+        <p>Lessons Learned </p>
+      </div>
+      <div>
+        <img src="imagens/foto_yone.jpg" alt="">
+        <p>XXXXX</p>
+      </div>
+      <div>
+        <img src="imagens/foto_yone.jpg" alt="">
+        <p>XXXXX</p>
+      </div>
+      <div>
+        <img src="imagens/foto_yone.jpg" alt="">
+        <p>XXXXX</p>
+      </div>
+      <div>
+        <img src="imagens/foto_yone.jpg" alt="">
+        <p>XXXXX</p>
+      </div>
+      <div>
+        <img src="imagens/foto_yone.jpg" alt="">
+        <p>XXXXX</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <div id="habilidades-templates">
+      <i class="fa-brands fa-css3-alt"> CSS</i>
+      <i class="fa-brands fa-html5"> HTML</i>
+      <i class="fa-brands fa-js-square"> JavaScript</i>
+      <i class="fa-brands fa-github"> GitHub</i>
+    </div>
+  </section>
+
+  <section id="favoritos">
+    <h2>Sites Favoritos</h2>
+    <div id="favoritos-template">
+      <a href="https://blog.betrybe.com/" target="_blank">BeTrybe</a><br>
+      <a href=https://buzzfeed.com.br/ target="_blank">Buzzfeed</a><br>
+      <a href="https://www.criatives.com.br/" target="_blank">Criatives</a><br>
+      <a href="https://www.naointendo.com.br/" target="_blank">Ñintendo</a>
+    </div>
+  </section>
+
+  <section id="redes-sociais">
+    <h2>Redes Sociais</h2>
+    <div id="social-template">
+
+      <a href="https://github.com/yonelouise" target="_blank" ref="external"><i class="fa-brands fa-github-alt"></i></a>
+
+
+
+      <a href="https://www.facebook.com/yonelouise" target="_blank" ref="external"><i
+          class="fa-brands fa-facebook"></i></a>
+
+      <a href="https://www.instagram.com/yonelouise" target="_blank" ref="external"><i
+          class="fa-brands fa-instagram"></i></a>
+
+
+      <a href="https://www.linkedin.com/in/yonelouise/" target="_blank" ref="external"><i
+          class="fa-brands fa-linkedin"></i></a>
+
+
+      <a href="https://twitter.com/yonelouise" target="_blank" ref="external"><i class="fa-brands fa-twitter"></i></a>
+      </li>
+    </div>
+  </section>
+
+  <footer id="rodape">
+    <p id="titulo-rodape">Todos os diretos reservados &copy; | <a href="https://www.linkedin.com/in/yonelouise/"
+        target="_blank">Yone Louise Brych</a></p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/59e0a656fc.js" crossorigin="anonymous"></script>
 </body>
+
+</html>
