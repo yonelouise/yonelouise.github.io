@@ -1,13 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-  color: #1a1c1d;
+  color: #505557;
 }
 
 html,
 body {
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
 /* 
@@ -23,14 +23,13 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
   width: 100%;
-  background-color: #d0f4de;
-  font-family: 'Raleway', sans-serif;
+  background-color: #fcf6bdb6;
+  font-family: "Raleway", sans-serif;
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
 
@@ -49,17 +48,32 @@ header nav a {
   margin-right: 5px;
   border-radius: 10%;
   padding: 3px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header h1 {
   padding: 10px;
   margin-left: 30px;
+  font-size: 20px;
+  color: #6f650bb6;
 }
 
 #sobre-mim {
   text-align: center;
-  background-color: #ff99c8;
+  background-color: #fcf1f74f;
+}
+
+#sobre-mim h2 {
+  color: #cd2171;
+  margin-bottom: 20px;
+}
+
+.titulo-cor1 {
+  color: #cd2171;
+}
+
+.titulo-cor2 {
+  color: #6f650bb6;
 }
 
 h2 {
@@ -78,11 +92,10 @@ h2 {
 
 #foto-yone {
   width: 300px;
-  padding: 10px;
   margin: 20px;
-  margin-top: 30px;
   margin-left: 50px;
   border-radius: 20px;
+  box-shadow: 8px 8px #e681b0;
 }
 
 #txt-sobre-mim {
@@ -118,7 +131,7 @@ h2 {
 
 #habilidades {
   text-align: center;
-  background-color: #e4c1f9;
+  background-color: #fcf1f74f;
   padding-bottom: 10px;
 }
 
@@ -128,17 +141,16 @@ h2 {
   padding: 10px;
   font-size: 20px;
   justify-content: space-evenly;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #habilidades-templates i {
   margin: 0px 20px;
-  
 }
 
 #favoritos {
   text-align: center;
-  background-color: #a9def9;
+  background-color: #fcf6bd;
   padding-bottom: 10px;
 }
 
@@ -160,7 +172,7 @@ h2 {
 
 #redes-sociais {
   text-align: center;
-  background-color: #d0f4de;
+  background-color: ##fcf1f74f;
 }
 
 #redes-sociais h2 {
@@ -183,10 +195,14 @@ h2 {
 
 footer {
   text-align: center;
-  background-color: rgb(255, 208, 192);
+  background-color: #fcf6bd(255, 208, 192);
   width: 100%;
   font-size: 20px;
   align-items: center;
+}
+
+#projetos-templates div img {
+  box-shadow: 5px 5px #6f650bb6;
 }
 
 @media screen and (max-width: 700px) {
@@ -202,7 +218,6 @@ footer {
   #foto-yone {
     margin: auto;
     max-width: 60%;
-    margin-top: 100px;
   }
 
   #foto-texto {
