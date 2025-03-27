@@ -1,0 +1,76 @@
+/* Importando fontes do Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* Paleta de cores */
+:root {
+  --main-color: #D81159;
+  --text-color: #ffffff;
+  --bg-color-01: #1A181B;
+  --bg-color-02: #323946;
+  --color-00: #0000001a;
+
+  /* Cores extras */
+  --color01: #9dd9d2;
+  --color02: #4E6E5D;
+  --color03: #DDB967;
+  --color04: #EF476F;
+  --color05: #1B264F;
+  --color06: #C72458;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  /* Scroll behavior, movimento quando clica nos links da página ele 'corre' de forma suave */
+  scroll-behavior: smooth;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--bg-color-01);
+  color: var(--text-color);
+}
+
+header {
+  /* vai ficar fixada no topo */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* o tamanho que eu defini por padrão é 16px, com 1.1rem ele vai ter 1xtamanho+10% do tamanho padrão == 16px + 10% */
+  padding: 1.1rem;
+  background-color: var(--bg-color-01);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  border: solid 1px var(--color04);
+}
+
+.logo {
+  font-size: 1.7rem;
+  color: var(--text-color);
+  font-weight: 600;
+  cursor: default;
+}
+
+.nav a { /*Para mexer só nos links dentro de nav */
+  font-size: 1.2rem;
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  transition: 0.4s;
+
+  border: solid 1px var(--color04);
+}
+
+.nav a:hover {
+  color: var(--main-color);
+}
+
