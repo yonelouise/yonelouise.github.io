@@ -1,4 +1,4 @@
 # Meu Projeto
 
-[!NOTE]
-Projeto de estudo
+>[!TIP]
+>Projeto de estudo
