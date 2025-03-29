@@ -11,6 +11,23 @@
 //     this.textContent = "Ler menos";
 //   }
 // })});
+// ===== Transforma o menu hamburguer dentro do x =====
+const menuHamburguer = document.querySelector('.menu-hamburguer');
 
-const menuHamburguer = document.querySelector('.menu-hamburguer')
-menuHamburguer.addEventListener('cl')
+menuHamburguer.addEventListener('click', () => {
+  alteraMenu();
+});
+
+function alteraMenu() {
+  const nav = document.querySelector('.nav-responsive');
+  menuHamburguer.classList.toggle('change');
+
+  if (menuHamburguer.classList.contains('change')) {
+    nav.style.display = 'block';
+  } else {
+    nav.style.display = 'none';
+  }
+};
+
+// toggle > se nao tem a classe adicona e se já tem, exclui, nesse caso a clsse é 'change''
+

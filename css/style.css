@@ -65,7 +65,17 @@ header {
   cursor: default;
 }
 
-.nav a { /*Para mexer só nos links dentro de nav */
+.nav-responsive {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--bg-color-01);
+}
+
+.nav a, .nav-responsive a { /*Para mexer só nos links dentro de nav */
   font-size: 1.2rem;
   color: var(--text-color);
   padding: 0.5rem 1rem;
@@ -74,7 +84,7 @@ header {
   border: solid 1px var(--color04); */
 }
 
-.nav a:hover {
+.nav a:hover, .nav-responsive a:hover {
   color: var(--main-color);
 }
 
@@ -398,7 +408,7 @@ footer {
     display: none;
   }
 
-  .nav-responsive {
+  .nav-responsive a {
     display: block;
     font-size: 1.2rem;
     margin: 0.5rem 0;
@@ -442,7 +452,7 @@ footer {
 }
 
   header {
-    background-color: var(--color01); /* TEST */
+    /* background-color: var(--color01); TEST */
   }
 }
 
@@ -459,7 +469,7 @@ footer {
   }
 
   header {
-    background-color: var(--color03); /* TEST */
+    /* background-color: var(--color03); TEST */
   }
 }
 
@@ -511,10 +521,10 @@ footer {
     width: 49%;
   }
 
-  header {
-    background-color: var(--color02); /* TEST */
-  }
-}
+  /* header {
+    background-color: var(--color02);
+  }*/
+} 
 
 /* Large (lg): Notebook */
 @media (min-width: 992px) {
@@ -534,7 +544,7 @@ footer {
   }
 
   header {
-    background-color: blue; /* TEST */
+    /* background-color: blue; TEST */
   }
 }
 
@@ -567,7 +577,7 @@ footer {
   }
 
   header {
-    background-color: red; /* TEST */
+    /* background-color: red; TEST */
   }
 }
 /* ===== /media queries ===== */
