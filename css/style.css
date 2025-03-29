@@ -110,13 +110,13 @@ section.home h1 { /*section.home: Ele vai pegar a <section> que tem a classe hom
   margin-top: 1.5rem;
 }
 
-.home-img {
+.home-img img {
   border-right: solid 0.6rem var(--color04);
   border-bottom: solid 0.6rem var(--color04);
   border-image: linear-gradient(135deg, transparent 50%, var(--main-color)) 1;
 }
 
-.about-img {
+.about-img img {
   border-left: solid 0.6rem var(--color04);
   border-bottom: solid 0.6rem var(--color04);
   border-image: linear-gradient(225deg, transparent 50%, var(--main-color)) 1;
